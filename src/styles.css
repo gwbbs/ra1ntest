@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  background-color: #333232;
+}
+
+.code {
+  color: #fff4ec;
+  position: relative;
+  top: -5px;
+}
+
+.sorapng {
+  top: -5px;
+  position: relative;
+}
+
+#app {
+  padding-left: 200px;
+}
+
+#presentation {
+  font-size: 50px;
+  position: relative;
+  padding-top: 50px;
+  line-height: 30px;
+  color: #f7b2ad;
+}
+
+@media only screen and (max-width: 500px) {
+  #presentation {
+    font-size: 30px;
+    line-height: 17.5px;
+  }
+
+  #app {
+    padding-left: 30px;
+  }
+
+  .code {
+    font-size: 16px;
+  }
+
+  .sorapng {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #presentation {
+    font-size: 25px;
+    line-height: 15px;
+  }
+
+  #app {
+    padding-left: 25px;
+  }
+
+  .code {
+    font-size: 15px;
+  }
+
+  .sorapng {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+}
+
+.ra1nanimation {
+  font-weight: bold;
+  text-shadow: 1px 2px 12px rgba(98, 207, 203, 0.2);
+  position: relative;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: border-box, text;
+  background-image: url(https://media.giphy.com/media/eYRGWfchREFUUlXT7P/giphy.gif),
+    linear-gradient(302deg, #24599d 0%, #fff 100%);
+  background-size: 10em, 15em;
+  animation: ra1n-anim 3s linear infinite;
+}
+
+@keyframes ra1n-anim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
